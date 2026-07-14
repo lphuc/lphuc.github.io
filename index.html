@@ -1,8 +1,699 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Davik Universe</h1>
-<p>Welcome to Davik Universe page!</p>
-<img src="https://i.imgur.com/A26CZB6.png">
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>D A V I K</title>
+	<link rel="shortcut icon" type="image/x-icon" href="public/img/tab_icon.png" />
+	<link rel="canonical" href="https://davikuniverse.org/" />
+
+	<link rel="stylesheet" id="elementor-frontend-css" href="public/styles/frontendmin2.css?ver=3.5.3" media="all" />
+	<link rel="stylesheet" id="elementor-pro-css" href="public/styles/frontendmin.css?ver=3.4.1" media="all" />
+	<link rel="stylesheet" id="jet-blog-css" href="public/styles/jet-blog.css?ver=2.2.12" media="all" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" id="elementor-post-151754-css" href="public/styles/post-151754.css?ver=1636825092"
+		media="all" />
+	<link rel="stylesheet" id="elementor-post-161550-css" href="public/styles/post-161550.css?ver=1636825093"
+		media="all" />
+	<link rel="stylesheet" id="elementor-post-151733-css" href="public/styles/post-151733.css?ver=1636825093"
+		media="all" />
+	<link crossorigin="anonymous" rel="stylesheet" id="google-fonts-1-css"
+		href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2"
+		media="all" />
+
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2590987192817381"
+		crossorigin="anonymous"></script>
+
+	<style>
+		:root {
+			--page-bg: rgb(20, 19, 15);
+			--social-bg: rgb(20, 19, 15);
+			--footer-text: rgb(183, 183, 183);
+			--logo-height: 32px;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			background-color: var(--page-bg);
+			overflow-x: hidden;
+		}
+
+		.site {
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+		}
+
+		.site__header,
+		.site__footer,
+		.site-content {
+			width: 100%;
+		}
+
+		.social-bar {
+			position: fixed;
+			bottom: 12px;
+			right: 12px;
+			display: inline-flex;
+			gap: 10px;
+			align-items: center;
+			justify-content: center;
+			padding: 6px 10px;
+			background-color: var(--social-bg);
+			border-radius: 10px;
+			z-index: 20;
+		}
+
+		.logo {
+			display: block;
+			padding: 10px;
+			height: auto;
+			width: 150px;
+		}
+
+		.logo-wordmark {
+			display: inline-flex;
+			align-items: center;
+			gap: 2px;
+			padding: 10px 0 10px 10px;
+			flex-wrap: nowrap;
+		}
+
+		.logo-letter {
+			display: block;
+			height: var(--logo-height);
+			width: 30px;
+			object-fit: contain;
+			transform-origin: center center;
+			animation: logo-letter-pulse 1800ms ease-in-out infinite;
+		}
+
+		.logo-letter:nth-child(1) {
+			animation-delay: 0ms;
+		}
+
+		.logo-letter:nth-child(2) {
+			animation-delay: 140ms;
+		}
+
+		.logo-letter:nth-child(3) {
+			animation-delay: 280ms;
+		}
+
+		.logo-letter:nth-child(4) {
+			animation-delay: 420ms;
+		}
+
+		.logo-letter:nth-child(5) {
+			animation-delay: 560ms;
+		}
+
+		.header-inner {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 8px 12px;
+			gap: 12px;
+		}
+
+		.header-inner .logo-box {
+			flex: 0 0 auto;
+		}
+
+		.header-inner .header-nav {
+			flex: 1 1 auto;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		.tiles-section {
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+
+		.tiles-section .jet-smart-tiles-slide__wrap {
+			font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+		}
+
+		.tile {
+			background-size: cover;
+			background-position: center;
+		}
+
+		.tile--semideus {
+			background-image: url("https://i.imgur.com/PAL77GU.png");
+		}
+
+		.tile--king {
+			background-image: url("https://imgur.com/LUqsk7x.jpg");
+		}
+
+		.tile--zombies {
+			background-image: url("https://i.imgur.com/p31Uu0K.png");
+		}
+
+		.tile--dark_recall {
+			background-image: url("public/img/dark_recall.png");
+		}
+
+		.jet-smart-tiles__box {
+			position: relative;
+			overflow: hidden;
+			transition: transform 1000ms cubic-bezier(0.22, 0.61, 0.36, 1), box-shadow 1000ms cubic-bezier(0.22, 0.61, 0.36, 1), filter 1000ms cubic-bezier(0.22, 0.61, 0.36, 1);
+			will-change: transform;
+			/* hint for smoother transforms */
+		}
+
+		.jet-smart-tiles__box:hover {
+			transform: translateY(-4px) scale(1.01);
+			box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35), 0 0 18px rgba(255, 255, 255, 0.12);
+			filter: brightness(1.12) saturate(1.18) contrast(1.08);
+		}
+
+		.jet-smart-tiles__box-content {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 12px;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			text-align: center;
+			padding: 0 12px;
+		}
+
+		.tile__title {
+			font-family: cursive;
+			display: inline-block;
+			transition: transform 500ms cubic-bezier(0.22, 0.61, 0.36, 1);
+			will-change: transform;
+		}
+
+		.jet-smart-tiles__box:hover .tile__title {
+			transform: scale(1.2);
+			color: #ffeb7a;
+			text-shadow: 0 0 8px rgb(242, 255, 0), 0 0 16px rgba(255, 242, 0, 0.98);
+			animation: title-pulse 1200ms ease-in-out infinite;
+		}
+
+		.jet-smart-tiles__terms-link {
+			position: absolute;
+			top: 12px;
+			left: 12px;
+			transform: none;
+			display: inline-block;
+			padding: 6px 10px;
+			background: rgba(0, 0, 0, 0.35);
+			color: #fff;
+			border-radius: 6px;
+			text-decoration: none;
+			transition: opacity 180ms ease;
+			backface-visibility: hidden;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			pointer-events: auto;
+		}
+
+		@keyframes title-pulse {
+			0% {
+				transform: scale(1.2);
+			}
+
+			50% {
+				transform: scale(1.28);
+			}
+
+			100% {
+				transform: scale(1.2);
+			}
+		}
+
+
+		.firefly-layer {
+			position: fixed;
+			inset: 0;
+			pointer-events: none;
+			overflow: hidden;
+			z-index: 10;
+		}
+
+		.firefly {
+			position: absolute;
+			background-repeat: no-repeat;
+			background-size: contain;
+			opacity: 0;
+			animation: firefly-fade 1200ms ease-out forwards;
+			filter: drop-shadow(0 0 6px rgba(255, 255, 200, 0.7));
+		}
+
+		@keyframes firefly-fade {
+			0% {
+				opacity: 0;
+				transform: translate(0, 0) scale(0.5);
+			}
+
+			40% {
+				opacity: 1;
+			}
+
+			100% {
+				opacity: 0;
+				transform: translate(var(--drift-x, 0px), var(--drift-y, -12px)) scale(1.05);
+			}
+		}
+
+		.footer-text {
+			margin: 0;
+			padding: 16px 0;
+			text-align: center;
+			color: var(--footer-text);
+		}
+
+		.dark-recall-overlay {
+			position: fixed;
+			inset: 0;
+			display: none;
+			align-items: flex-start;
+			justify-content: center;
+			background: rgba(0, 0, 0, 0.75);
+			backdrop-filter: blur(4px);
+			z-index: 40;
+			padding: 24px 12px;
+			overflow-y: auto;
+		}
+
+		.dark-recall-overlay.is-active {
+			display: flex;
+		}
+
+		.dark-recall-modal {
+			background: rgba(20, 20, 20, 0.92);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+			border-radius: 12px;
+			max-width: 1100px;
+			width: 100%;
+			padding: 20px;
+			max-height: calc(100vh - 48px);
+			overflow: auto;
+		}
+
+		.dark-recall-header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: #f7f7f7;
+			margin-bottom: 14px;
+		}
+
+		.dark-recall-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+			gap: 12px;
+		}
+
+		.dark-recall-grid img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 10px;
+			box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35), 0 0 12px rgba(255, 255, 255, 0.18);
+			animation: demo-pulse 2200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
+			animation-delay: var(--pulse-delay, 0ms);
+		}
+
+		.dark-close {
+			background: transparent;
+			border: 1px solid rgba(255, 255, 255, 0.25);
+			color: #f7f7f7;
+			border-radius: 999px;
+			padding: 6px 12px;
+			cursor: pointer;
+			transition: background 180ms ease, transform 180ms ease;
+		}
+
+		.dark-close:hover {
+			background: rgba(255, 255, 255, 0.08);
+			transform: translateY(-1px);
+		}
+
+		.dark-recall-grid img:nth-child(1) {
+			--pulse-delay: 0ms;
+		}
+
+		.dark-recall-grid img:nth-child(2) {
+			--pulse-delay: 180ms;
+		}
+
+		.dark-recall-grid img:nth-child(3) {
+			--pulse-delay: 340ms;
+		}
+
+		.dark-recall-grid img:nth-child(4) {
+			--pulse-delay: 520ms;
+		}
+
+		@keyframes demo-pulse {
+			0% {
+				transform: scale(1);
+			}
+
+			45% {
+				transform: scale(1.02);
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		@keyframes logo-letter-pulse {
+			0%,
+			100% {
+				transform: scale(1);
+			}
+
+			50% {
+				transform: scale(1.1);
+			}
+		}
+
+		@media (max-width: 767px) {
+
+			/* Stack tiles vertically and allow scrolling on small screens */
+			.tiles-section .jet-smart-tiles-slide__wrap {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+				min-height: auto;
+				height: auto;
+				max-height: none;
+				overflow-y: auto;
+				padding-bottom: 12px;
+			}
+
+			.tiles-section .jet-smart-tiles {
+				width: 100%;
+			}
+
+			/* Keep tile aspect ratio on mobile so backgrounds don't get squashed */
+			.tiles-section .jet-smart-tiles__box {
+				aspect-ratio: 16 / 9;
+				height: auto;
+				min-height: calc(100vw * 9 / 16);
+			}
+		}
+	</style>
+</head>
+
+<body class="site" itemtype="https://schema.org/WebPage" itemscope="itemscope">
+	<header class="site__header elementor elementor-161550 elementor-location-header" data-elementor-type="header"
+		data-elementor-id="161550" data-elementor-settings="[]">
+		<div class="elementor-element elementor-element-4b29fe0 elementor-shape-square elementor-grid-0 elementor-widget-social-icons"
+			data-id="4b29fe0" data-element_type="widget" data-widget_type="social-icons.default">
+			<div class="elementor-widget-container social-bar">
+				<div class="elementor-grid">
+					<span class="elementor-grid-item">
+						<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-pop elementor-repeater-item-eb69bff"
+							href="https://www.facebook.com/davikuniverse" target="_blank">
+							<span class="elementor-screen-only">Facebook-f</span>
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</span>
+					<span class="elementor-grid-item">
+						<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pop elementor-repeater-item-19c650d"
+							href="https://twitter.com/davikuniverse" target="_blank">
+							<span class="elementor-screen-only">Twitter</span>
+							<i class="fab fa-twitter"></i>
+						</a>
+					</span>
+					<span class="elementor-grid-item">
+						<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-pop elementor-repeater-item-9fb6d05"
+							href="https://www.youtube.com/@davidle1407/featured" target="_blank">
+							<span class="elementor-screen-only">Youtube</span>
+							<i class="fab fa-youtube"></i>
+						</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-14152f4 elementor-section-boxed"
+			data-id="14152f4" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="header-inner">
+				<div class="logo-box">
+					<div class="logo-wordmark" role="img" aria-label="Davik Universe">
+						<img class="logo-letter" src="public/img/txt_D.png" alt="D" />
+						<img class="logo-letter" src="public/img/txt_A.png" alt="A" />
+						<img class="logo-letter" src="public/img/txt_V.png" alt="V" />
+						<img class="logo-letter" src="public/img/txt_I.png" alt="I" />
+						<img class="logo-letter" src="public/img/txt_K.png" alt="K" />
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-d98be98 elementor-nav-menu__align-right header-nav">
+					<nav role="navigation"
+						class="elementor-nav-menu--main elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
+						<ul id="menu-1-d98be98" class="elementor-nav-menu">
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-151754 current_page_item menu-item-151768">
+								<a href="https://davikuniverse.org/" aria-current="page"
+									class="elementor-item elementor-item-active menu-link">Home</a>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136692">
+								<a href="dark-recall-privacy-policy.html"
+									class="elementor-item menu-link">Dark Recall</a>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136692">
+								<a href="semideus-privacy-policy.html"
+									class="elementor-item menu-link">Semideus</a>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136692">
+								<a href="murderking-privacy-policy.html"
+									class="elementor-item menu-link">Murder King</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+	</header>
+
+	<main id="content" class="site-content">
+		<div data-elementor-type="wp-post" data-elementor-id="151754" class="elementor elementor-151754"
+			data-elementor-settings="[]">
+			<section
+				class="tiles-section elementor-section elementor-top-section elementor-element elementor-element-64cb436f elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+				data-id="64cb436f" data-element_type="section"
+				data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+				<div class="elementor-element elementor-element-f50508d elementor-widget elementor-widget-jet-blog-smart-tiles"
+					data-id="f50508d" data-element_type="widget" data-widget_type="jet-blog-smart-tiles.default">
+					<div class="jet-smart-tiles-slide__wrap layout-2-x">
+						<div class="jet-smart-tiles">
+							<div class="jet-smart-tiles__box tile tile--dark_recall">
+								<a href="https://play.google.com/store/apps/details?id=com.davik.dark_recall"
+									class="jet-smart-tiles__terms-link jet-smart-tiles__terms-link--21">Playstore</a>
+								<div class="jet-smart-tiles__box-content">
+									<div class="jet-smart-tiles__box-title tile__title">Dark Recall</div>
+								</div>
+							</div>
+						</div>
+						<div class="jet-smart-tiles">
+							<div class="jet-smart-tiles__box tile tile--king">
+								<a href="https://play.google.com/store/apps/details?id=com.phucle.murderking"
+									class="jet-smart-tiles__terms-link jet-smart-tiles__terms-link--21">Playstore</a>
+								<div class="jet-smart-tiles__box-content">
+									<div class="jet-smart-tiles__box-title tile__title">Be The King</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="jet-smart-tiles">
+							<div class="jet-smart-tiles__box tile tile--semideus">
+								<a href="https://play.google.com/store/apps/details?id=com.davik.semideus"
+									class="jet-smart-tiles__terms-link jet-smart-tiles__terms-link--21">Playstore</a>
+								<div class="jet-smart-tiles__box-content">
+									<div class="jet-smart-tiles__box-title tile__title">Semideus</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="jet-smart-tiles">
+							<div class="jet-smart-tiles__box tile tile--zombies">
+								<a class="jet-smart-tiles__terms-link jet-smart-tiles__terms-link--21">2019 - Experiment
+								</a>
+								<div class="jet-smart-tiles__box-content">
+									<div class="jet-smart-tiles__box-title tile__title">Rock vs Zombies</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer class="site__footer elementor elementor-151733 elementor-location-footer" data-elementor-type="footer"
+		data-elementor-id="151733" data-elementor-settings="[]">
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-102b1ff0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="102b1ff0" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6660397a"
+				data-id="6660397a" data-element_type="column">
+				<div class="elementor-widget-wrap">
+					<div class="elementor-element elementor-element-e89cd31 elementor-widget elementor-widget-text-editor"
+						data-id="e89cd31" data-element_type="widget" data-widget_type="text-editor.default">
+						<p class="footer-text">Copyright © 2025 Davik Universe. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<div class="dark-recall-overlay" id="darkRecallOverlay" aria-hidden="true">
+		<div class="dark-recall-modal">
+			<div class="dark-recall-header">
+				<h3 style="margin: 0; font-family: 'Oswald', sans-serif; letter-spacing: 0.5px;">Dark Recall Preview
+				</h3>
+				<button class="dark-close" id="darkRecallClose" type="button">Close</button>
+			</div>
+			<div class="dark-recall-grid">
+				<img src="public/img/demo1.webp" alt="Dark Recall Demo 1" />
+				<img src="public/img/demo2.webp" alt="Dark Recall Demo 2" />
+				<img src="public/img/demo3.webp" alt="Dark Recall Demo 3" />
+				<img src="public/img/demo4.webp" alt="Dark Recall Demo 4" />
+			</div>
+		</div>
+	</div>
+	<script>
+		(() => {
+			const layer = document.createElement("div");
+			layer.className = "firefly-layer";
+			document.body.appendChild(layer);
+
+			const fireflyImg = "public/img/firefly.png";
+			const maxFireflies = 60;
+			let lastSpawn = 0;
+
+			function spawnFirefly(x, y, opts = {}) {
+				const { upward = false, tight = false } = opts;
+
+				if (layer.childElementCount > maxFireflies && layer.firstChild) {
+					layer.firstChild.remove();
+				}
+
+				const el = document.createElement("span");
+				el.className = "firefly";
+
+				const size = 10 + Math.random() * 12;
+				const angle = upward
+					? (-Math.PI / 2) + (Math.random() - 0.5) * 0.8 // mostly upward
+					: Math.random() * Math.PI * 2;
+				const radius = tight ? 4 + Math.random() * 8 : 12 + Math.random() * 24;
+				const offsetX = Math.cos(angle) * radius;
+				const offsetY = Math.sin(angle) * radius;
+
+				el.style.width = `${size}px`;
+				el.style.height = `${size}px`;
+				el.style.left = `${x + offsetX}px`;
+				el.style.top = `${y + offsetY}px`;
+				el.style.setProperty("--drift-x", `${offsetX * (upward ? 0.45 : 0.6)}px`);
+				el.style.setProperty("--drift-y", `${(upward ? -Math.abs(offsetY) * 1.8 : offsetY * 0.6) - 20}px`);
+				el.style.backgroundImage = `url(${fireflyImg})`;
+
+				layer.appendChild(el);
+				el.addEventListener("animationend", () => el.remove());
+			}
+
+			const hoverTimers = new WeakMap();
+			const tiles = document.querySelectorAll(".jet-smart-tiles__box");
+
+			tiles.forEach((box) => {
+				box.addEventListener("mouseenter", () => {
+					const title = box.querySelector(".tile__title");
+					if (!title || hoverTimers.has(box)) return;
+
+					const spawnFromTitle = () => {
+						const rect = title.getBoundingClientRect();
+						const randX = rect.left + Math.random() * rect.width;
+						const baseY = rect.top + rect.height * 0.6;
+						spawnFirefly(randX, baseY, { upward: true, tight: true });
+					};
+
+					spawnFromTitle();
+					const id = window.setInterval(spawnFromTitle, 160);
+					hoverTimers.set(box, id);
+				});
+
+				box.addEventListener("mouseleave", () => {
+					const id = hoverTimers.get(box);
+					if (id) {
+						clearInterval(id);
+						hoverTimers.delete(box);
+						window.clearInterval(id);
+					}
+				});
+			});
+
+			const logoWordmark = document.querySelector(".logo-wordmark");
+			if (logoWordmark) {
+				const spawnFromLogo = () => {
+					const rect = logoWordmark.getBoundingClientRect();
+					const randX = rect.left + Math.random() * rect.width;
+					const randY = rect.top + Math.random() * rect.height;
+					spawnFirefly(randX, randY, { tight: true });
+				};
+
+				spawnFromLogo();
+				window.setInterval(spawnFromLogo, 700);
+			}
+
+			document.addEventListener("pointermove", (event) => {
+				const now = Date.now();
+				if (now - lastSpawn < 40) return;
+				lastSpawn = now;
+				spawnFirefly(event.clientX, event.clientY);
+			});
+
+			const darkTile = document.querySelector(".tile--dark_recall");
+			const overlay = document.getElementById("darkRecallOverlay");
+			const closeBtn = document.getElementById("darkRecallClose");
+
+			const closeOverlay = () => {
+				if (overlay) overlay.classList.remove("is-active");
+			};
+
+			if (darkTile && overlay) {
+				darkTile.addEventListener("click", (e) => {
+					if (e.target.closest('.jet-smart-tiles__terms-link')) {
+						return;
+					}
+					e.preventDefault();
+					overlay.classList.add("is-active");
+				});
+			}
+
+			if (closeBtn) {
+				closeBtn.addEventListener("click", closeOverlay);
+			}
+
+			if (overlay) {
+				overlay.addEventListener("click", (e) => {
+					if (e.target === overlay) {
+						closeOverlay();
+					}
+				});
+			}
+		})();
+	</script>
 </body>
+
 </html>

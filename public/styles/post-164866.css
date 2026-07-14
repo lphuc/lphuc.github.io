@@ -1,0 +1,149 @@
+.elementor-kit-164866 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-5a3f2d5c: #01B8F1;
+    --e-global-color-6f9edc5e: #191919;
+    --e-global-color-5af52dc2: #F8F8F8;
+    --e-global-color-6b23f87a: #F8F8F8;
+    --e-global-color-2846eb6c: #01CC8D;
+    --e-global-color-101d147f: #6D6D6D;
+    --e-global-color-384d12a: #000;
+    --e-global-color-1ddac50e: #D0451A;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    font-family: "Rubik", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.elementor-kit-164866 p {
+    margin-bottom: 15px;
+}
+
+.elementor-kit-164866 a {
+    color: #01B8F1;
+}
+
+.elementor-kit-164866 a:hover {
+    color: #01CC8D;
+    text-decoration: underline;
+}
+
+.elementor-kit-164866 h1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.1px;
+}
+
+.elementor-kit-164866 h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 0.1px;
+}
+
+.elementor-kit-164866 h3 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0.1px;
+}
+
+.elementor-kit-164866 h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0.1px;
+}
+
+.elementor-kit-164866 h5 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.1px;
+}
+
+.elementor-kit-164866 h6 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.2px;
+}
+
+.elementor-kit-164866 button,
+.elementor-kit-164866 input[type="button"],
+.elementor-kit-164866 input[type="submit"],
+.elementor-kit-164866 .elementor-button {
+    color: #F8F8F8;
+    background-color: #01CC8D;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+}
+
+.elementor-kit-164866 button:hover,
+.elementor-kit-164866 button:focus,
+.elementor-kit-164866 input[type="button"]:hover,
+.elementor-kit-164866 input[type="button"]:focus,
+.elementor-kit-164866 input[type="submit"]:hover,
+.elementor-kit-164866 input[type="submit"]:focus,
+.elementor-kit-164866 .elementor-button:hover,
+.elementor-kit-164866 .elementor-button:focus {
+    color: #F8F8F8;
+    background-color: #D0451A;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+    {}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-164866 {
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+
+    .elementor-kit-164866 h1 {
+        font-size: 34px;
+        line-height: 1em;
+    }
+
+    .elementor-kit-164866 h2 {
+        font-size: 30px;
+    }
+
+    .elementor-kit-164866 h3 {
+        font-size: 28px;
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+}
