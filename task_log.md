@@ -1,5 +1,8 @@
 # Task Log
 
+## [2026-08-26] Updated Rock vs Zombie Badge Text
+- Changed badge text from "2019 - Experiment" to "Not for sale" in `index.html`.
+
 ## [2026-08-26] Updated Game Tile Title to Rock vs Zombie
 - Updated tile title from "Duck Pilot" to "Rock vs Zombie" in `index.html`.
 
