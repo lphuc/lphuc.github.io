@@ -1,5 +1,14 @@
 # Task Log
 
+## [2026-08-26] Replaced Kill The King with Mystic Stone & Updated WebP Image Assets
+- Replaced `.tile--king` with `.tile--mystic_stone` using background `public/img/bg_mystic_stone.webp`.
+- Changed tile title to "Mystic Stone" and button text to "Comming soon...".
+- Updated `.tile--dont_run` background from `.png` to `public/img/dont_run_splash.webp`.
+- Updated `.tile--dark_recall` background from `.png` to `public/img/dark_recall.webp`.
+
+## [2026-08-26] Removed About / Personal Portfolio Page
+- Deleted `about.html`.
+
 ## [2026-08-11] Updated Don't run tile, copyright year, and Kill The King title
 - Replaced `.tile--semideus` with `.tile--dont_run` in `index.html`.
 - Updated tile background image to `public/img/dont_run_splash.png`.
