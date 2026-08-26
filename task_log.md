@@ -1,5 +1,8 @@
 # Task Log
 
+## [2026-08-26] Updated Game Tile Title to Rock vs Zombie
+- Updated tile title from "Duck Pilot" to "Rock vs Zombie" in `index.html`.
+
 ## [2026-08-26] Replaced Kill The King with Mystic Stone & Updated WebP Image Assets
 - Replaced `.tile--king` with `.tile--mystic_stone` using background `public/img/bg_mystic_stone.webp`.
 - Changed tile title to "Mystic Stone" and button text to "Comming soon...".
