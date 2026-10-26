@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Dont Run</title>
+    <title>Privacy Policy - Don't Run</title>
     <style>
         :root {
             --bg-color: #0f172a;
@@ -179,22 +179,30 @@
     <div class="container">
         <header>
             <span class="badge">Legal Document</span>
-            <h1>Privacy Policy for Dont Run</h1>
-            <p class="meta-info"><strong>Effective Date:</strong> August 1, 2026</p>
+            <h1>Privacy Policy for Don't Run</h1>
+            <p class="meta-info"><strong>Effective Date:</strong> October 27, 2026 (updated from August 1, 2026)</p>
         </header>
 
         <main>
-            <p><strong>Davik</strong> ("we," "our," or "us") operates the mobile application <strong>Dont Run</strong> (the "Game") on the Android platform (Package: <code>com.davik.dontrun</code>). This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Game and the choices you have associated with that data.</p>
+            <p><strong>Davik</strong> ("we," "our," or "us") operates the mobile application <strong>Don't Run</strong> (the "Game") on the Android platform (Package: <code>com.davik.dontrun</code>). This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Game and the choices you have associated with that data.</p>
 
-            <p>By downloading, installing, or using <strong>Dont Run</strong>, you agree to the collection and use of information in accordance with this policy.</p>
+            <p>By downloading, installing, or using <strong>Don't Run</strong>, you agree to the collection and use of information in accordance with this policy.</p>
 
             <h2>1. Information Collection and Use</h2>
-            <p>We do not collect any personal data directly from you (such as your name, email address, or phone number) during gameplay. However, the Game integrates third-party Software Development Kits (SDKs) that may collect certain information automatically to ensure smooth gameplay, analytics, monetization, and secure transaction processing.</p>
+            <p>The Game does not ask for your name, email address, or phone number to play. When you first open the Game, it creates an anonymous game account for you so your progress can be saved. If you choose to link a Google account (optional, in Settings), we receive the email address of that Google account. The Game also integrates third-party Software Development Kits (SDKs) that may collect certain information automatically to ensure smooth gameplay, analytics, monetization, and secure transaction processing.</p>
+
+            <p><strong>Information you provide or choose to share:</strong></p>
+            <ul>
+                <li><strong>Google account email (optional):</strong> Only if you link a Google account. Google also shares the name and profile photo of that account with us; we use the email to identify your account so you can recover your progress on a new device or after reinstalling. We do not use it for marketing.</li>
+                <li><strong>Leaderboard profile:</strong> The display name and country you choose, shown to other players on the leaderboards.</li>
+            </ul>
 
             <p><strong>Types of Data Collected Automatically:</strong></p>
             <ul>
+                <li><strong>Game account identifier:</strong> A random account ID created by Firebase Authentication when you first open the Game.</li>
+                <li><strong>Cloud save:</strong> Your coin and diamond balances, experience, and a copy of your in-game progress (such as Mastery, Forge, Combo, quests and unlocks), stored on our server so they can be restored.</li>
                 <li><strong>Device Information:</strong> Device model, operating system version, unique device identifiers (such as Android Advertising ID), and mobile network information.</li>
-                <li><strong>Usage Data:</strong> In-game progress, chapter & wave completion stats, combat choices, equipment items used, level-up upgrade choices, session duration, and app crash logs.</li>
+                <li><strong>Usage Data:</strong> In-game progress, chapter &amp; wave completion stats, leaderboard scores, combat choices, equipment items used, level-up upgrade choices, session duration, and app crash logs.</li>
                 <li><strong>Transaction Data:</strong> Internal purchase status tokens when you perform in-app purchases (e.g., unlocking the Mage class or additional inventory slots).</li>
             </ul>
 
@@ -202,36 +210,52 @@
             <p>The Game uses third-party services that may collect information used to identify you. Below is the list of third-party providers we use, what they are used for, and links to their privacy policies:</p>
 
             <div class="sdk-card">
-                <h3>A. Google Firebase (Analytics & Crashlytics)</h3>
+                <h3>A. Google Firebase (Analytics &amp; Crashlytics)</h3>
                 <p><strong>Purpose:</strong> We use Firebase Analytics and Crashlytics to monitor game stability, track crash reports, analyze player retention, understand progression pacing, and improve overall game performance.</p>
                 <p><strong>Data collected:</strong> Device state, system crash logs, session duration, and custom in-game event milestones.</p>
                 <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy &amp; Terms</a></p>
             </div>
 
             <div class="sdk-card">
-                <h3>B. Google AdMob (Advertising)</h3>
+                <h3>B. Google Firebase (Authentication, Cloud Firestore &amp; Cloud Functions)</h3>
+                <p><strong>Purpose:</strong> To create your game account, link it to Google if you choose to, keep your cloud save and wallet balances, run the leaderboards, and delete your account when you ask.</p>
+                <p><strong>Data processed:</strong> Your game account ID, linked Google account email (optional), display name and country, leaderboard scores, coin and diamond balances, and a copy of your in-game progress.</p>
+                <p><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a></p>
+            </div>
+
+            <div class="sdk-card">
+                <h3>C. Google AdMob (Advertising)</h3>
                 <p><strong>Purpose:</strong> To display non-intrusive advertisements (such as interstitial ads upon retrying and rewarded video ads for player revives) within the game.</p>
                 <p><strong>Data collected:</strong> Advertising identifiers (Android Advertising ID), IP addresses, device parameters, and ad interaction metrics.</p>
                 <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google AdMob Privacy Policy</a></p>
             </div>
 
             <div class="sdk-card">
-                <h3>C. Google Play Billing SDK (In-App Purchases - IAP)</h3>
+                <h3>D. Google Play Billing SDK (In-App Purchases - IAP)</h3>
                 <p><strong>Purpose:</strong> To facilitate secure financial transactions for virtual in-game items (such as unlocking the Mage playable class or extra inventory slots).</p>
                 <p><strong>Data processed:</strong> Google processes all payment instruments directly. We do not store or have access to your credit card details or financial information; we only receive purchase validation tokens from Google Play.</p>
                 <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Play Services Privacy Policy</a></p>
             </div>
 
-            <h2>3. Children's Privacy</h2>
+            <h2>3. Data Retention and Account Deletion</h2>
+            <p>We keep your game account, cloud save and leaderboard profile while you use the Game. Leaderboard entries that have not been updated for 7 days are removed. Game accounts that are not linked to Google and have not been used for 60 days may be deleted automatically, together with their server data.</p>
+            <p>You can delete your account and the data stored on our server at any time:</p>
+            <ul>
+                <li><strong>In the Game:</strong> open Settings → Delete account and confirm twice. Deletion takes effect immediately and requires an internet connection.</li>
+                <li><strong>On the web:</strong> follow the instructions at <a href="https://doru-9908f.web.app/delete-account/" target="_blank" rel="noopener noreferrer">doru-9908f.web.app/delete-account</a>, or email us from (or naming) the Google account linked in the Game. Email requests are handled within 30 days.</li>
+            </ul>
+            <p>Deletion removes your game account, linked Google email, coin and diamond balances, cloud save, leaderboard name and scores, and challenge history. In-app purchase records are kept by Google Play under Google's policy, and one-time purchases can still be restored from Google Play.</p>
+
+            <h2>4. Children's Privacy</h2>
             <p>These Services do not address anyone under the age of 13 (or under 16 in certain jurisdictions within the EU). We do not knowingly collect personally identifiable information from children under these age limits. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to take the necessary actions.</p>
 
-            <h2>4. Data Security</h2>
-            <p>We value your trust in providing us with your information. Please remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security. However, by relying on major infrastructure like Google Firebase and Google Play Billing, your data benefits from industry-standard security protocols.</p>
+            <h2>5. Data Security</h2>
+            <p>We value your trust in providing us with your information. Please remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security. However, by relying on major infrastructure like Google Firebase and Google Play Billing, your data benefits from industry-standard security protocols, and all data is encrypted in transit.</p>
 
-            <h2>5. Changes to This Privacy Policy</h2>
+            <h2>6. Changes to This Privacy Policy</h2>
             <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted.</p>
 
-            <h2>6. Contact Us</h2>
+            <h2>7. Contact Us</h2>
             <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
 
             <div class="contact-box">
@@ -241,7 +265,7 @@
         </main>
 
         <footer>
-            <p>&copy; 2026 Davik. All rights reserved. | Privacy Policy for Dont Run</p>
+            <p>© 2026 Davik. All rights reserved. | Privacy Policy for Don't Run</p>
         </footer>
     </div>
 </body>
