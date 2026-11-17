@@ -1,6 +1,6 @@
 google.com, pub-2590987192817381, DIRECT, f08c47fec0942fa0
 
-# Yandex Advertising Network (AdMob mediation, Don't Run)
+# Yandex Advertising Network (AdMob mediation, Don't Run: Survivors)
 yandex.com, 335161085, DIRECT
 google.com, pub-5533854580432370, RESELLER, f08c47fec0942fa0
 improvedigital.com, 2031, RESELLER
